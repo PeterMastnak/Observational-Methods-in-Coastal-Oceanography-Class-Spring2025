@@ -33,6 +33,7 @@ ENV/
 
 # Generated files
 *.png
+!example_figures/*.png
 *.nc
 data/
 
