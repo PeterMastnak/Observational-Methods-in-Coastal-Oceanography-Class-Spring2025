@@ -1,0 +1,46 @@
+SUMMARY OF DENSITY RELATIONSHIPS IN SEAWATER
+===========================================
+
+1. EFFECTS OF PRESSURE ON DENSITY:
+   - Seawater density increases with pressure (depth).
+   - For typical ocean parameters, density increases by approximately 4-5% 
+     from the surface to the deep ocean (~10,000m).
+   - This effect is nearly linear and is due to the compression of water molecules.
+
+2. EFFECTS OF TEMPERATURE ON DENSITY:
+   - Seawater density generally decreases as temperature increases.
+   - The relationship is non-linear, with the greatest effect in colder waters.
+   - Unlike freshwater, seawater's density typically does not have a maximum 
+     at 4°C due to the presence of salt.
+   - Temperature can cause density variations of approximately 1-2% 
+     across oceanic temperature ranges (typically -2°C to 30°C).
+
+3. EFFECTS OF SALINITY ON DENSITY:
+   - Seawater density increases with salinity.
+   - The relationship is nearly linear.
+   - Across typical ocean salinity ranges (33-37 PSU), density varies by around 0.3-0.4%.
+   - When comparing fresh water to typical seawater, the difference is about 2-3%.
+
+4. ABSOLUTE VS. PRACTICAL SALINITY:
+   - Absolute Salinity (SA, g/kg) is the mass fraction of dissolved material in seawater.
+   - Practical Salinity (SP, PSU) is a conductivity-based scale without units.
+   - The difference between them varies geographically due to variations in seawater composition.
+   - The difference is typically 0.1-0.5 g/kg higher for Absolute Salinity.
+   - Largest differences occur in the North Pacific and Indian Ocean due to silicate content.
+
+5. CONSERVATIVE VS. IN-SITU TEMPERATURE:
+   - Conservative Temperature (CT) represents the heat content of seawater.
+   - In-situ Temperature (t) is the measured temperature at a specific pressure.
+   - CT is more appropriate for heat budget calculations.
+   - Differences increase with pressure and are largest in warm, deep waters.
+   - CT is typically slightly lower than in-situ temperature at depth.
+
+6. COMBINED EFFECTS:
+   - Of the three factors, temperature variations typically cause the largest density changes 
+     in the upper ocean, while pressure dominates in the deep ocean.
+   - In certain regions like the polar oceans, salinity can be the dominant factor controlling density.
+   - These density differences drive global ocean circulation patterns.
+   - The nonlinear nature of the seawater equation of state leads to important phenomena 
+     like cabbeling, where mixing of water masses can increase density.
+
+Generated using GSW-Python (Gibbs SeaWater) toolbox based on TEOS-10.
