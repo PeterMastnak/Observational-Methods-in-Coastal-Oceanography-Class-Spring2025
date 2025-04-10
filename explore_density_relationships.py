@@ -303,8 +303,8 @@ def density_3d_visualization():
              ha='center', bbox=dict(facecolor='white', alpha=0.7), fontsize=12)
     
     plt.tight_layout(rect=[0, 0.05, 1, 1])
-    plt.savefig('density_3d_comparison.png', dpi=300, bbox_inches='tight')
-    print("Figure saved as 'density_3d_comparison.png'")
+    plt.savefig('figures/general_airsea/density_3d_comparison.png', dpi=300, bbox_inches='tight')
+    print("Figure saved as 'figures/general_airsea/density_3d_comparison.png'")
     
     return fig
 

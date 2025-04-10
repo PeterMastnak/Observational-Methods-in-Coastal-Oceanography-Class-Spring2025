@@ -544,8 +544,8 @@ def plot_results(fluxes):
         axs[1].text(i, v + 0.05, f"{v:.2f}", ha='center')
     
     plt.tight_layout()
-    plt.savefig('monterey_bay_fluxes.png', dpi=300, bbox_inches='tight')
-    print("\nPlot saved as 'monterey_bay_fluxes.png'")
+    plt.savefig('figures/monterey/monterey_bay_fluxes.png', dpi=300, bbox_inches='tight')
+    print("\nPlot saved as 'figures/monterey/monterey_bay_fluxes.png'")
     plt.show()
 
 if __name__ == "__main__":

@@ -78,8 +78,8 @@ def explore_wind_speed_effect():
     axs[1, 1].grid(True, alpha=0.3)
     
     plt.tight_layout()
-    plt.savefig('wind_speed_effect.png', dpi=300, bbox_inches='tight')
-    print("Plot saved as 'wind_speed_effect.png'")
+    plt.savefig('figures/general_airsea/wind_speed_effect.png', dpi=300, bbox_inches='tight')
+    print("Plot saved as 'figures/general_airsea/wind_speed_effect.png'")
 
 def explore_temperature_effect():
     """
@@ -160,8 +160,8 @@ def explore_temperature_effect():
     axs[1, 1].text(-2, np.min(stability_values)*0.8, 'Unstable', fontsize=12, ha='center')
     
     plt.tight_layout()
-    plt.savefig('temperature_effect.png', dpi=300, bbox_inches='tight')
-    print("Plot saved as 'temperature_effect.png'")
+    plt.savefig('figures/general_airsea/temperature_effect.png', dpi=300, bbox_inches='tight')
+    print("Plot saved as 'figures/general_airsea/temperature_effect.png'")
 
 def explore_humidity_effect():
     """
@@ -216,8 +216,8 @@ def explore_humidity_effect():
     ax2.grid(True, alpha=0.3)
     
     plt.tight_layout()
-    plt.savefig('humidity_effect.png', dpi=300, bbox_inches='tight')
-    print("Plot saved as 'humidity_effect.png'")
+    plt.savefig('figures/general_airsea/humidity_effect.png', dpi=300, bbox_inches='tight')
+    print("Plot saved as 'figures/general_airsea/humidity_effect.png'")
 
 def main():
     """Main function to run all explorations"""

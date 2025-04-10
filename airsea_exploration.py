@@ -42,10 +42,10 @@ def explore_wind_stress_formulations():
     
     # Save the figure
     plt.tight_layout()
-    plt.savefig('wind_stress_comparison.png', dpi=300)
+    plt.savefig('figures/general_airsea/wind_stress_comparison.png', dpi=300)
     plt.close()
     
-    print("Wind stress comparison completed and saved to 'wind_stress_comparison.png'")
+    print("Wind stress comparison completed and saved to 'figures/general_airsea/wind_stress_comparison.png'")
 
 # Custom implementation of sensible heat flux calculation
 def calc_sensible_heat(u, Ts, Ta, Pa=1013.0):
@@ -171,10 +171,10 @@ def explore_heat_fluxes():
     
     # Save the figure
     plt.tight_layout()
-    plt.savefig('heat_flux_comparison.png', dpi=300)
+    plt.savefig('figures/general_airsea/heat_flux_comparison.png', dpi=300)
     plt.close()
     
-    print("Heat flux comparison completed and saved to 'heat_flux_comparison.png'")
+    print("Heat flux comparison completed and saved to 'figures/general_airsea/heat_flux_comparison.png'")
 
 def explore_humidity_effect():
     """Explore the effect of relative humidity on latent heat flux."""
@@ -220,10 +220,10 @@ def explore_humidity_effect():
     
     # Save the figure
     plt.tight_layout()
-    plt.savefig('humidity_effect.png', dpi=300)
+    plt.savefig('figures/general_airsea/humidity_effect.png', dpi=300)
     plt.close()
     
-    print("Humidity effect exploration completed and saved to 'humidity_effect.png'")
+    print("Humidity effect exploration completed and saved to 'figures/general_airsea/humidity_effect.png'")
 
 def compare_airsea_gsw():
     """Compare air-sea flux calculations with GSW density calculations."""
@@ -279,10 +279,10 @@ def compare_airsea_gsw():
     
     # Save the figure
     plt.tight_layout()
-    plt.savefig('density_comparison.png', dpi=300)
+    plt.savefig('figures/general_airsea/density_comparison.png', dpi=300)
     plt.close()
     
-    print("Density comparison completed and saved to 'density_comparison.png'")
+    print("Density comparison completed and saved to 'figures/general_airsea/density_comparison.png'")
 
 def custom_drag_coefficient(wind_speed, formulation='largepond'):
     """
@@ -344,10 +344,10 @@ def explore_drag_coefficient():
     
     # Save the figure
     plt.tight_layout()
-    plt.savefig('drag_coefficient_comparison.png', dpi=300)
+    plt.savefig('figures/general_airsea/drag_coefficient_comparison.png', dpi=300)
     plt.close()
     
-    print("Drag coefficient comparison completed and saved to 'drag_coefficient_comparison.png'")
+    print("Drag coefficient comparison completed and saved to 'figures/general_airsea/drag_coefficient_comparison.png'")
 
 def explore_wind_speed_profile():
     """Explore the wind speed profile with height."""
@@ -387,10 +387,10 @@ def explore_wind_speed_profile():
     
     # Save the figure
     plt.tight_layout()
-    plt.savefig('wind_profile.png', dpi=300)
+    plt.savefig('figures/general_airsea/wind_profile.png', dpi=300)
     plt.close()
     
-    print("Wind profile exploration completed and saved to 'wind_profile.png'")
+    print("Wind profile exploration completed and saved to 'figures/general_airsea/wind_profile.png'")
 
 def main():
     """Run all explorations."""

@@ -243,8 +243,8 @@ def plot_monterey_fluxes(fluxes):
         axs[1].text(i, v + 0.05*v, f"{v:.2f}", ha='center')
     
     plt.tight_layout()
-    plt.savefig('monterey_bay_airsea_fluxes.png', dpi=300, bbox_inches='tight')
-    print("\nPlot saved as 'monterey_bay_airsea_fluxes.png'")
+    plt.savefig('figures/monterey/monterey_bay_airsea_fluxes.png', dpi=300, bbox_inches='tight')
+    print("\nPlot saved as 'figures/monterey/monterey_bay_airsea_fluxes.png'")
     
 def explore_monterey_parameters():
     """Explore variations around typical Monterey Bay parameters."""
@@ -352,8 +352,8 @@ def explore_monterey_parameters():
     axs[1, 1].grid(True, alpha=0.3)
     
     plt.tight_layout()
-    plt.savefig('monterey_bay_parameter_variations.png', dpi=300, bbox_inches='tight')
-    print("\nPlot saved as 'monterey_bay_parameter_variations.png'")
+    plt.savefig('figures/monterey/monterey_bay_parameter_variations.png', dpi=300, bbox_inches='tight')
+    print("\nPlot saved as 'figures/monterey/monterey_bay_parameter_variations.png'")
     
 def main():
     """Main function to run the Monterey Bay air-sea flux analysis."""

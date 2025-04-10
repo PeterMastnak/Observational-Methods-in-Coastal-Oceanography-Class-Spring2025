@@ -191,10 +191,10 @@ def explore_wind_stress_formulations(base_speed=MONTEREY_WIND_SPEED):
     
     # Save the figure
     plt.tight_layout()
-    plt.savefig('monterey_wind_stress_comparison.png', dpi=300)
+    plt.savefig('figures/general_airsea/figures/monterey/monterey_wind_stress_comparison.png', dpi=300)
     plt.close()
     
-    print("Wind stress comparison completed and saved to 'monterey_wind_stress_comparison.png'")
+    print("Wind stress comparison completed and saved to 'figures/general_airsea/figures/monterey/monterey_wind_stress_comparison.png'")
 
 def explore_heat_fluxes():
     """Explore sensible and latent heat fluxes around Monterey Bay conditions."""
@@ -260,10 +260,10 @@ def explore_heat_fluxes():
     
     # Save the figure
     plt.tight_layout()
-    plt.savefig('monterey_heat_flux_comparison.png', dpi=300)
+    plt.savefig('figures/general_airsea/figures/monterey/monterey_heat_flux_comparison.png', dpi=300)
     plt.close()
     
-    print("Heat flux comparison completed and saved to 'monterey_heat_flux_comparison.png'")
+    print("Heat flux comparison completed and saved to 'figures/general_airsea/figures/monterey/monterey_heat_flux_comparison.png'")
 
 def explore_humidity_effect():
     """Explore the effect of relative humidity on latent heat flux around Monterey Bay conditions."""
@@ -324,10 +324,10 @@ def explore_humidity_effect():
     
     # Save the figure
     plt.tight_layout()
-    plt.savefig('monterey_humidity_effect.png', dpi=300)
+    plt.savefig('figures/general_airsea/figures/monterey/monterey_humidity_effect.png', dpi=300)
     plt.close()
     
-    print("Humidity effect exploration completed and saved to 'monterey_humidity_effect.png'")
+    print("Humidity effect exploration completed and saved to 'figures/general_airsea/figures/monterey/monterey_humidity_effect.png'")
 
 def compare_airsea_gsw():
     """Compare air-sea flux calculations with GSW density calculations for Monterey Bay water."""
@@ -399,10 +399,10 @@ def compare_airsea_gsw():
     
     # Save the figure
     plt.tight_layout()
-    plt.savefig('monterey_density_comparison.png', dpi=300)
+    plt.savefig('figures/general_airsea/figures/monterey/monterey_density_comparison.png', dpi=300)
     plt.close()
     
-    print("Density comparison completed and saved to 'monterey_density_comparison.png'")
+    print("Density comparison completed and saved to 'figures/general_airsea/figures/monterey/monterey_density_comparison.png'")
 
 def explore_wind_speed_profile():
     """Explore the wind speed profile with height for Monterey Bay."""
@@ -454,10 +454,10 @@ def explore_wind_speed_profile():
     
     # Save the figure
     plt.tight_layout()
-    plt.savefig('monterey_wind_profile.png', dpi=300)
+    plt.savefig('figures/monterey/monterey_wind_profile.png', dpi=300)
     plt.close()
     
-    print("Wind profile exploration completed and saved to 'monterey_wind_profile.png'")
+    print("Wind profile exploration completed and saved to 'figures/monterey/monterey_wind_profile.png'")
 
 def main():
     """Run all explorations for Monterey Bay."""
