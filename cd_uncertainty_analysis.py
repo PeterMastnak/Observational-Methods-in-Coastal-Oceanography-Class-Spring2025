@@ -1,3 +1,11 @@
+"""
+Author: Peter Mastnak
+Date: 2024
+Description: Analysis of C_D uncertainty for Palau tidal flow using finite differences approach.
+            Examines uncertainty in drag coefficient measurements for different sensor separations
+            and tidal flow velocities.
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy import stats
